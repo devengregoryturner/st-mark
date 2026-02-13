@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saint Mark Roman Catholic Church</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a href="#content" class="skip-link">Skip to main content</a>
+    <!--===================================================-->
+    <!--================Section: Navigation ===============-->
+    <!--===================================================-->
+
+    <nav>
+      <div class="name">
+        <h1>Saint Mark</h1>
+        <p>Roman Catholic Church</p>
+      </div>
+      <button
+        class="hamburger"
+        aria-label="open navigation"
+        aria-controls="navigation"
+        aria-expanded="false"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+      <div class="nav-container">
+        <ul class="navigation" id="navigation" hidden>
+          <li>
+            <a href="#mass-times">Mass Times</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+          <ul class="social-links">
+            <li>
+              <a href=""
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H12V13H11C10.4477 13 10 12.5523 10 12C10 11.4477 10.4477 11 11 11H12V9.5C12 7.567 13.567 6 15.5 6H16.1C16.6523 6 17.1 6.44772 17.1 7C17.1 7.55228 16.6523 8 16.1 8H15.5C14.6716 8 14 8.67157 14 9.5V11H16.1C16.6523 11 17.1 11.4477 17.1 12C17.1 12.5523 16.6523 13 16.1 13H14V20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6Z"
+                      fill="#ffffff"
+                    ></path>
+                  </g></svg
+              ></a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </nav>
+
+    <main id="content">
+      <section class="landing">
+        <h2>Welcome to Saint Mark!</h2>
+        <div class="landing-content">
+          <article class="youtube">
+            <p>
+              Enjoy a 5 minute YouTube video to discover how your donation
+              supports our parish and our diocese.
+            </p>
+            <a href=""><span class="link-background">Watch Video</span></a>
+          </article>
+          <article class="donation">
+            <p>Donate to the 2025 Diocesan Annual Appeal.</p>
+            <a href=""><span class="link-background">Donate</span></a>
+          </article>
+        </div>
+      </section>
+      <section class="mass-times" id="mass-times">
+        <h2>Mass Times</h2>
+        <div class="card-container">
+          <article class="card">
+            <div class="image-container">
+              <img
+                class="card-image"
+                src="assets/images/sacrament-cropped_cropped_processed_by_imagy.png"
+                alt=""
+              />
+            </div>
+            <div class="card-text">
+              <h3>Weekends</h3>
+              <h4>Saturdays</h4>
+              <p>
+                <time datetime="16:00">4:00pm</time>
+              </p>
+              <h4>Sundays</h4>
+              <ul>
+                <li>
+                  <time datetime="08:30">8:30am</time>
+                </li>
+                <li>
+                  <time datetime="11:00">11:00am</time>
+                </li>
+                <li><time datetime="16:00">4:00pm</time> in Spanish</li>
+                <li>
+                  <time datetime="17:00">5:00pm</time> EKU Newman Center
+                  <span class="small-text">(Only when EKU is in session.)</span>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="card">
+            <div class="image-container">
+              <img
+                src="assets/images/pexels-david-eucaristia-254738-931809.jpg"
+                alt=""
+                class="card-image"
+              />
+            </div>
+            <div class="card-text">
+              <h3>Weekdays</h3>
+              <h4>Tuesdays</h4>
+              <p><time datetime="12:00">12:00 noon</time></p>
+              <h4>Wednesdays</h4>
+              <p><time datetime="18:00">6:00pm</time></p>
+              <h4>Thursdays</h4>
+              <p><time datetime="12:00">12:00 noon</time></p>
+              <h4>Fridays</h4>
+              <p><time datetime="08:15">8:15am</time></p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="image-container">
+              <img
+                class="card-image"
+                src="assets/images/pexels-mart-production-7219516.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-text">
+              <h3>Confession</h3>
+              <h4>Wednesday</h4>
+              <p>
+                <time datetime="17:30">5:30pm</time> &ndash;
+                <time datetime="17:55">5:55pm</time>
+              </p>
+              <h4>Saturdays</h4>
+              <p>
+                <time datetime="14:45">2:45pm</time> &ndash;
+                <time datetime="15:45">3:45pm</time>
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
