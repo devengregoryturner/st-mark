@@ -456,9 +456,13 @@ nav {
 
 @media (max-width: 699px) {
   .landing {
-    background-size: auto 80vh;
-    /* Shows 80% of viewport height worth of the image */
-    background-position: center center;
+    background-image:
+      linear-gradient(
+        to bottom,
+        rgba(18, 18, 18, 0.25),
+        rgba(40, 20, 20, 0.85)
+      ),
+      url(optimized-images/church-mobile.webp);
   }
 }
 
