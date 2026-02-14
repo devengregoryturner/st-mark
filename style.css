@@ -456,8 +456,9 @@ nav {
 
 @media (max-width: 699px) {
   .landing {
-    background-size: 150% auto;
-    /* Higher number = more zoomed out. Try 175% or 200% if needed */
+    background-size: auto 80vh;
+    /* Shows 80% of viewport height worth of the image */
+    background-position: center center;
   }
 }
 
