@@ -454,6 +454,13 @@ nav {
   font-size: 1rem;
 }
 
+@media (max-width: 699px) {
+  .landing {
+    background-size: 150% auto;
+    /* Higher number = more zoomed out. Try 175% or 200% if needed */
+  }
+}
+
 /*
   ===== DESKTOP STYLES =====
 */
